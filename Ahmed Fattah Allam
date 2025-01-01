@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ahmed Allam Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a freelance graphic designer with expertise in visual identities, social media designs, and branding.</p>
+    </section>
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <img src="example1.jpg" alt="Project 1">
+            <p>Project Description 1</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="example2.jpg" alt="Project 2">
+            <p>Project Description 2</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ahmed@example.com">ahmed@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Ahmed Allam</p>
+    </footer>
+</body>
+</html>
